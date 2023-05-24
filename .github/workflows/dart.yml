@@ -31,7 +31,7 @@ jobs:
           # 11
           flutter-version: "3.10.0"
           channel: 'stable'
-      - name: Install dependencies
+      - name: flutter version checker
         run: flutter --version
       - name: Install dependencies
         run: flutter pub get
